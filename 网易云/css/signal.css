@@ -1,0 +1,144 @@
+#signal{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    flex-flow: row;
+}
+
+#signal-cen{
+    width: 180px;
+    height: 50px;
+    background-color: black;
+    border-radius: 0 0 25px 25px;
+}
+
+#signal-left{
+    display: flex;
+    flex: 1;
+    border-radius: 0 7px 0 0;
+    background-color: #C20C0C;
+}
+
+#signal-l-t {
+    height: 40px;
+    width: 100px;
+    font-size: 12px;
+    color: white;
+    opacity: .9;
+}
+
+#signal-center{
+    width: 180px;
+
+    background-color: #C20C0C;
+}
+
+#signal-right{
+    display: flex;
+    flex: 1;
+    border-radius:  7px 0 0 0;
+    background-color: #C20C0C;
+}
+
+#signal-r-o{
+    height: 13px;
+    width: 20px;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    opacity: .9;
+}
+
+#signal-r-o div{
+    width: 2px;
+    border-radius: 1px;
+    margin: 1px;
+}
+
+#signal-r-o div:nth-child(1){
+    height: 4px;
+    background-color: white;
+
+}
+
+#signal-r-o div:nth-child(2){
+    height: 6px;
+    background-color: white;
+
+}
+
+#signal-r-o div:nth-child(3){
+    height: 8px;
+    background-color: white;
+
+}
+
+#signal-r-o div:nth-child(4){
+    height: 10px;
+    background-color: grey;
+    opacity: .6;
+
+}
+
+#signal-r-xg{
+    height: 25px;
+    width: 20px;
+    color: white;
+    font-size: 12px;
+    opacity: .9;
+}
+
+#signal-r-b{
+    height: 20px;
+    width: 35px;
+
+}
+
+#signal-r-b-b{
+    height: 10px;
+    width: 20px;
+    border: 1px grey solid;
+    opacity: .6;
+    align-items: center;
+    border-radius: 2px;
+}
+
+#signal-r-c{
+    height: 8px;
+    width: 20px;
+    background-color: red;
+    margin: 1px;
+    animation: charge 5s linear infinite;
+}
+
+@keyframes charge {
+    0% {
+        background-color: red;
+        width: 1px;
+    }
+
+    20% {
+        background-color: yellow;
+        width: 4px;
+    }
+
+    80% {
+        background-color: green;
+        width : 15px;
+    }
+    100% {
+        background-color: green;
+        width : 18px;
+    }
+}
+
+div#signal-r-b-c{
+    height: 5px;
+    width: 1px;
+    border-radius: 0 5px 5px 0;
+    border: 1px grey solid;
+    opacity: .6;
+    background-color: grey;
+}
+
+

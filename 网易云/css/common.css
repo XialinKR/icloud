@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;font-family: 微软雅黑;
+}
+
+.border{
+    border: 1px blue solid;
+}
+
+.xy-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+

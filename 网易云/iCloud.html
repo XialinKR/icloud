@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/signal.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/topic.css">
+    <link rel="stylesheet" href="css/dynamic.css">
+    <link rel="stylesheet" href="css/menus.css">
+
+    <!--<style>-->
+        <!--.item {-->
+            <!--margin: 0 auto;margin-top: 10px;-->
+
+            <!--width: 500px;-->
+            <!--height: 160px;-->
+            <!--background-color: lightyellow;-->
+            <!--border-radius: 2px;-->
+
+            <!--display: flex;-->
+            <!--flex-flow: row;-->
+        <!--}-->
+    <!--</style>-->
+
+</head>
+<body>
+
+    <div id="container">
+        <!--信号层开始-->
+        <div id="signal" class="">
+            <!--信号层左部-->
+            <div id="signal-left" class="xy-center ">
+                <div id="signal-l-t" class="xy-center">10:52</div>
+            </div>
+            <!--信号层中部-->
+            <div id="signal-center" class=" xy-center">
+                <div id="signal-cen" class=""></div>
+            </div>
+            <!--信号层右部-->
+            <div id="signal-right" class="xy-center">
+                <!--信号-->
+                <div id="signal-r-o" class="xy-center">
+                    <div></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                </div>
+                <!--4G-->
+                <div id="signal-r-xg" class="xy-center">4G</div>
+                <!--电池-->
+                <div id="signal-r-b" class="xy-center">
+                    <div id="signal-r-b-b">
+                        <div id="signal-r-c"></div>
+                    </div>
+                    <div id="signal-r-b-c"></div>
+                </div>
+            </div>
+        </div>
+        <!--搜索层开始-->
+        <div id="search" class="">
+            <!--搜索层左部-->
+            <!--<div id="search-left" class="xy-center">-->
+                <!--<div class="search-i " style="background-image: url(img/话筒.svg)"></div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;搜索层中部&ndash;&gt;-->
+            <!--<div id="search-center" class="xy-center">-->
+                <!--<div id="search-c-s" class="xy-center">-->
+                    <!--<div id="search-c-m" class="xy-center">-->
+                        <!--<div id="search-c-p" style="background-image: url(img/搜索.svg)"></div>-->
+                        <!--<div id="search-c-t">大家都在搜 生僻字</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;搜索层右部&ndash;&gt;-->
+            <!--<div id="search-right" class=" xy-center">-->
+                <!--<div class="search-i" style="background-image: url(img/音乐.svg)"></div>-->
+            <!--</div>-->
+        </div>
+
+
+        <!--标题层开始-->
+        <div id="topic" >
+
+            <!--<div id="topic-b" >-->
+                <!--&lt;!&ndash;标题层左部&ndash;&gt;-->
+                <!--<div class="topic-b-l xy-center">-->
+                    <!--<div class="topic-b-u">个性推荐</div>-->
+                    <!--<div class="topic-b-d1"></div>-->
+                <!--</div>-->
+                <!--&lt;!&ndash;标题层右部&ndash;&gt;-->
+                <!--<div class="topic-b-r xy-center">-->
+                    <!--<div class="topic-b-u" >主播电台</div>-->
+                    <!--<div class="topic-b-d2"></div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+        </div>
+
+
+        <!--活动层开始-->
+        <div id="dynamic">
+
+        </div>
+        <!--菜单层开始-->
+        <div id="menus" >
+
+
+            <div id="discover" class="click xy-center " data-normal="img/menus/discover-normal.svg" data-press="img/menus/discover-press.svg" data-url="../网易云/discover.html" data-urla="../网易云/search.html" data-urlb="../网易云/title.html">发现</div>
+            <div id="video" class="click xy-center " data-normal="img/menus/video-normal.svg" data-press="img/menus/video-press.svg" data-url="../网易云/video.html" data-urla="../网易云/search-video.html" data-urlb="../网易云/title-video.html">视频</div>
+            <div id="me" class="click xy-center " data-normal="img/menus/me-normal.svg" data-press="img/menus/me-press.svg" data-url="../网易云/me.html" data-urla="../网易云/search-me.html" data-urlb="../网易云/title-me.html">我的</div>
+            <div id="friend" class="click xy-center " data-normal="img/menus/friend-normal.svg" data-press="img/menus/friend-press.svg" data-url="../网易云/friend.html" data-urla="../网易云/search-friend.html" data-urlb="../网易云/title-friend.html">朋友</div>
+            <div id="id" class="click xy-center " data-normal="img/menus/id-normal.svg" data-press="img/menus/id-press.svg" data-url="../网易云/id.html" data-urla="../网易云/search-id.html" data-urlb="../网易云/title-me.html">账号</div>
+
+
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
+
+
+<script src="js/jquery-movemenus.js"></script>
+<script src="../网易云/js/jquery-img.js"></script>
+<!--<script src="../网易云/js/jquery.js"></script>-->
+<!--<script src="../网易云/js/loadmore.js"> </script>-->
+
+
+<script>
+// 跳转页面------------------------
+    $(function(){
+
+        $("#dynamic").load("../网易云/discover.html");
+        $("#search").load("../网易云/search.html");
+        $("#topic").load("../网易云/title.html");
+
+
+
+        /*  控制底部图片*/
+        $("#menus div").each(function() {
+            $(this).css('background-image' , 'url('+$(this).data("normal")+')').css('background-size' , '40%');
+            // console.log($(this).data("normal"));
+            // $(this).css('color=gery')
+        });
+
+
+        //当点击每一个
+        $(".click").click(function(){
+
+                //让所有按钮的背景  再次变为 normal 状态
+            $(".click").each(function(){
+                $(this).css('background-image' , 'url('+$(this).data("normal")+')');
+                // $(this).css('color=gery')
+            });
+            //让被点击的层切换为  press
+            $(this).css('background-image' , 'url('+$(this).data("press")+')');
+            // $(this).css('color=red')
+            //
+            $("#dynamic").load($(this).data("url"));
+            $("#search").load($(this).data("urla"));
+            $("#topic").load($(this).data("urlb"));
+        });
+
+    })
+
+
+
+
+// 图片轮播1--------------------------
+
+let index = 2;
+
+let task;
+
+function loadImg() {
+    if (index === 9) index = 1;
+    $("#dynamic-img").css("background-image", "url(img/" + index + ".jpg)");
+    $("#dynamic-p-m").css("background-image", "url(img/" + index + ".jpg)");
+    $("#dynamic-part-d").css("background-image", "url(img/" + index + ".jpg)");
+    index++;
+}
+
+$(function(){ //当页面加载时
+
+    task = setInterval("loadImg()" , 3000); //启动定时器
+
+    $("#dynamic-img").mouseover(function(){ //鼠标经过
+        window.clearInterval(task);
+    });
+
+    $("#dynamic-img").mouseout(function(){ //鼠标移出
+        task = setInterval("loadImg()", 1000);
+    })
+
+});
+
+
+
+
+
+
+
+
+
+
+</script>

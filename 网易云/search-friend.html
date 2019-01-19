@@ -1,0 +1,92 @@
+<style>
+
+    /*#dy-sea-text{*/
+        /*color: white;*/
+        /*font-size: 20px;*/
+    /*}*/
+
+
+    #dy-sea-b{
+        height: 25px;
+        width: 140px;
+        display: flex;
+        flex-flow: row;
+        font-size: 12px;
+        border-radius: 25px;
+    }
+
+    .dy-sea-l{
+        height: 25px;
+        width: 50px;
+        border-radius: 25px;
+        background-color: white;
+        color: #C20C0C;
+    }
+
+    .dy-sea-l:hover {
+        background-color: #C20C0C;
+        color: white;
+        transition-duration: .1s;
+    }
+    .dy-sea-l:hover .dy-sea-r{
+        transform: translate(-50px );
+        transition-duration: 3s;
+    }
+
+    .dy-sea-r:hover {
+        background-color: white;
+        color: #C20C0C;
+        transition-duration: .1s;
+
+    }
+    .dy-sea-r:hover .dy-sea-l{
+        transform: translate(50px );
+        transition-duration: 3s;
+    }
+
+
+
+
+    .dy-sea-r{
+        height: 25px;
+        width: 50px;
+        border-radius: 25px;
+        background-color: #C20C0C;
+        color: white;
+    }
+
+
+
+
+</style>
+
+
+
+<div id="search-left" class="xy-center">
+    <div class="search-i " style="background-image: url(img/title/添加好友.svg)"></div>
+</div>
+<!--搜索层中部-->
+<div id="search-center" class="xy-center">
+    <!--<div id="search-c-s" class="xy-center">-->
+
+
+    <div id="dy-sea-b" class=" xy-center">
+
+        <div class="dy-sea-l  xy-center">动态</div>
+        <div class="dy-sea-r  xy-center">附近</div>
+    </div>
+
+
+
+    <!--<div id="dy-sea-text">我的音乐</div>-->
+
+    <!--<div id="search-c-m" class="xy-center">-->
+    <!--<div id="search-c-p" style="background-image: url(img/搜索.svg)"></div>-->
+    <!--<div id="search-c-t">大家都在搜 生僻字</div>-->
+    <!--</div>-->
+    <!--</div>-->
+</div>
+<!--搜索层右部-->
+<div id="search-right" class=" xy-center">
+    <div class="search-i" style="background-image: url(img/title/音乐.svg)"></div>
+</div>

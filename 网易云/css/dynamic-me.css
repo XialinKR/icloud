@@ -1,0 +1,123 @@
+#dy-me-u{
+    height: 290px;
+    display: flex;
+    flex-flow: column;
+
+    /*!*justify-content: space-between;*!*/
+}
+
+.dy-me-b{
+    height: 55px;
+    display: flex;
+    flex-flow: row;
+    /*justify-content: space-between;*/
+
+    margin: 3px;
+    align-items: center;
+}
+
+.dy-p{
+    height: 48px;
+    width: 48px;
+    margin: 5px;
+}
+
+.dy-img{
+    height: 45px;
+    width: 45px;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dy-l{
+    height: 48px;
+    width: 500px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border-bottom: 1px #BDBDBD solid;
+    /*opacity: .6;*/
+}
+
+.dy-2{
+    height: 20px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.dy-3{
+    height: 40px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    /*width: 200px;*/
+    flex-flow: row-reverse;
+}
+
+.dy-4{
+    height: 30px;
+    /*width: 300px;*/
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.dy-5{
+    height: 30px;
+    width: 20px;
+}
+
+#dy-me-d{
+   height: 60px;
+    display: flex;
+    flex-flow: column;
+    /*justify-content: space-between;*/
+
+}
+
+.dyn-f{
+    height: 28px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.dy-a{
+    height: 25px;
+    width: 150px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.dy-b{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.dy-e{
+    height: 20px;
+    width: 20px;
+}
+.dy-c{
+    height: 20px;
+    width: 200px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.dy-d{
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/三个点.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-right: 15px;
+}

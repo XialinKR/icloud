@@ -1,0 +1,33 @@
+#menus{
+    height: 90px;
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.click{
+    height: 50px;
+    flex: 1;
+
+    background-size: 20px;
+    background: no-repeat center;
+    font-size: 12px;
+    align-items: flex-end;
+
+}
+ul li{
+    display: inline-block;
+    height: 40px;
+    width: 160px;
+
+    text-align: center;
+    line-height: 40px;
+
+    background-color: #4b5257;
+
+}
+

@@ -1,0 +1,237 @@
+#dy-friend-area{
+    height: 150px;
+}
+
+#dy-friend-area{
+    height: 130px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-left: 15px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#dy-friend-text{
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#dy-friend-img{
+    height: 90px;
+}
+
+#dy-friend-photo{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-top: 5px;
+    background-image: url(../img/dynamic-friend/吴二三.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#dy-friend-font{
+    height: 15px;
+    width: 55px;
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+
+.dy-friend-b{
+    height: 600px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.dy-fri-1{
+    height: 65px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+}
+
+.dy-fri-photo{
+    height: 50px;
+    width: 50px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.dy-fri-text{
+    height: 60px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.dy-fri-left{
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+}
+
+.dy-fri-font1{
+    height: 45px;
+    width: 80px;
+}
+
+.dy-fri-font2{
+    height: 20px;
+    color: #1565C0;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.dy-fri-font3{
+    height: 15px;
+    color: #9E9E9E;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.dy-fri-font4{
+    height: 12px;
+    color: #757575;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.dy-fri-right{
+    height: 55px;
+    width: 140px;
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.dy-fri-r-img{
+    height: 20px;
+    width: 55px;
+    color: white;
+    background-color: #e53935;
+    border-radius: 25px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.dy-fri-2{
+    height: 200px;
+    padding-left: 80px;
+    font-size: 15px;
+}
+
+.dy-fri-3{
+    height: 200px;
+    padding-left: 75px;
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+.dy-fri-3-img{
+    margin: 3px;
+    height: 90px;
+    width: 90px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    border-radius: 5px;
+}
+
+.dy-fri-4{
+    height: 65px;
+    background-color: #E0E0E0;
+    margin-left: 75px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.dy-fri-4-img{
+    height: 55px;
+    width: 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.dy-fri-4-text{
+    height: 55px;
+    display: flex;
+    flex-flow: column;
+}
+
+.dy-fri-4-title{
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.dy-fri-4-topic{
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.dy-fri-5{
+    height: 65px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dy-fri-5-l{
+    height: 50px;
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+}
+.dy-fri-5-b{
+    height: 45px;
+    width: 75px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.dy-fri-5-img{
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.dy-fri-5-text{
+    height: 25px;
+    width: 27px;
+    color: #757575;
+    font-size: 13px;
+}
+
+.dy-fri-5-r{
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    margin-right: 5px;
+}
